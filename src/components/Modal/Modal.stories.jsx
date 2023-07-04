@@ -8,7 +8,7 @@ export default {
 	tags: ["autodocs"],
 };
 
-export const GenericModal = {
+export const Generic = {
 	args: {
 		children: <div>children!</div>,
 	},
@@ -27,7 +27,7 @@ const MinimumHeight = styled.div`
     }
 `;
 
-export const StyledModalWithSpacing = () => (
+export const Styled = () => (
 	<MinimumHeight>
 		<Modal>
 			<div>this modal has been customized using the default classNames</div>
